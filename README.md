@@ -1,47 +1,74 @@
-# 🧠 Agent_Core - Hệ Sinh Thái AI Cá Nhân
+# 🎬 Agent_MKT_Video - Core Marketing Ads & Video Production Hub
 
-> **Vũ khí bí mật** giúp tích hợp hệ thống Agentic AI (Antigravity/Gemini) vào mọi dự án lập trình với cấu hình tối ưu sẵn có.
+> **Hệ thống AI Core chuyên biệt** giúp tự động hóa toàn bộ quy trình **Marketing Ads, Sáng tạo nội dung & Dựng Video tự động** với các kỹ năng và chuyên gia AI tối ưu sẵn.
+
+---
 
 ## 🚀 Tính năng nổi bật
-- **20 Chuyên gia AI** (Backend, Frontend, Security, DevOps,...)
-- **61 Kỹ năng chuyên sâu** (S-Life UI Kit, Systematic Debugging, Architecture Design,...)
-- **11 Workflows** điều khiển bằng Slash Commands (`/debug`, `/enhance`, `/orchestrate`).
-- **Tích hợp MCP RAG Server** giúp AI đọc hiểu toàn bộ codebase và có bộ nhớ vĩnh cửu.
-- Chế độ **Socratic Gate** ép AI phải tư duy, phân tích trước khi code.
+
+### 🎥 1. Video Production Engine (Tự động hóa sản xuất Video)
+- **Kịch bản Video chuẩn chuyển đổi:** Hook 3s đầu, Storyboard (Visual | Audio | On-screen text | CTA), kịch bản Short-form (Reels/TikTok/Shorts).
+- **Dựng Video Tự động:** Tích hợp `video-engine/` (Remotion, HTML-Video, AI Avatar, Faceless Video, TTS Voiceover).
+- **Video Ads & Dynamic Creative:** Nhân bản các biến thể video ngắn để chạy A/B testing ads.
+
+### 📢 2. Marketing & Ads Creative Hub
+- **Meta / TikTok / Google Ads Copywriting:** Viết ad copy đa định dạng, tiêu đề cuốn hút, CTA mạnh mẽ.
+- **Offer & Positioning Design:** Thiết kế Grand Slam Offer, khung giá trị, risk reversal và độc quyền sản phẩm.
+- **A/B Testing & Creative Iteration:** Quản lý vòng lặp thử nghiệm quảng cáo, phát hiện ad fatigue và tự động làm mới creative.
+
+### 🤖 3. Chuyên gia AI & Kỹ năng Tích hợp sẵn
+- **Chuyên gia AI:** Video Producer, Ad Creative Director, Performance Marketer, Copywriter, Content Strategist.
+- **Skillset chuyên sâu:** `video`, `ad-creative`, `ads`, `social`, `copywriting`, `offers`, `ab-testing`, `marketing-ideas`, `marketing-loops`.
+- **Workflows:** slash commands phục vụ lên chiến dịch, duyệt kịch bản video và tối ưu quảng cáo.
 
 ---
 
-## 💻 Hướng Dẫn Sử Dụng (Cho dự án MỚI)
+## 🧱 4 Trụ Cột Nguồn Core (Core Integration)
 
-Khi anh bắt đầu làm một dự án hoàn toàn mới, anh không cần phải cấu hình AI từ số 0. Hãy làm theo 2 bước sau:
+Hệ thống được hợp nhất từ 4 nguồn nền tảng hàng đầu:
 
-**Bước 1:** Bật Terminal tại thư mục gốc của dự án mới và chạy lệnh clone Bộ não này về (Lưu ý dấu chấm phía sau để báo nó clone vào folder `.agent`):
+| Nguồn GitHub Repo | Thư mục Tích hợp | Vai trò & Chức năng |
+| :--- | :--- | :--- |
+| **[marketingskills](https://github.com/coreyhaines31/marketingskills)** | `skills/` | Chứa 48+ kỹ năng Marketing, viết ad copy, lên chiến dịch & thiết kế offer. |
+| **[AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)** | `video-engine/auto-create-video/` | Engine tự động tạo kịch bản, ghép asset, voiceover TTS & xuất video AI. |
+| **[last30days-skill](https://github.com/mvanhorn/last30days-skill)** | `skills/last30days/` | Skill nghiên cứu xu hướng & bài viết hot 30 ngày qua trên TikTok/Reddit/YouTube/X. |
+| **[html-video](https://github.com/nexu-io/html-video)** | `video-engine/html-video/` | Framework render video quảng cáo chuyển đổi cao bằng HTML/CSS/Canvas. |
+
+### 🔄 Quy trình Tự động hóa 4 Bước:
+$$\text{1. Trend Research (last30days)} \longrightarrow \text{2. Ad Copywriting (marketingskills)} \longrightarrow \text{3. HTML Template (html-video)} \longrightarrow \text{4. Render Video (AI-auto-generate-video)}$$
+
+---
+
+## 💻 Hướng Dẫn Tích Hợp Vấn Vào Dự Án Mới
+
+Khi bắt đầu một dự án Marketing / Sản xuất Video mới, clone Bộ não này vào folder `.agent`:
+
 ```bash
-git clone https://github.com/haihoan2874/Agent_Core.git .agent
+git clone https://github.com/haihoan2874/Agent_MKT_Video.git .agent
 ```
 
-**Bước 2:** Cập nhật Memory cho dự án mới
-Tạo một file có tên là `PROJECT_MEMORY.md` bên trong thư mục `.agent/rules/` và ghi các quy tắc nghiệp vụ/database của dự án mới vào đó. (File này đã được `.gitignore` che đi, nên nó sẽ chỉ tồn tại ở máy local của dự án đó).
+Cập nhật thông tin dự án vào `.agent/rules/PROJECT_MEMORY.md` (ICP, sản phẩm, ngân sách, phong cách video).
 
 ---
 
-## 🔄 Hướng Dẫn Cập Nhật (Đồng Bộ)
+## 🔄 Hướng Dẫn Cập Nhật & Đồng Bộ (Sync Skills)
 
-Nếu anh đang code và **dạy cho AI thêm 1 kỹ năng mới** (hoặc tạo 1 script mới trong thư mục `.agent`), anh muốn các dự án khác cũng được thừa hưởng độ khôn này? Rất đơn giản:
+Khi bạn nâng cấp kỹ năng viết ads hoặc bổ sung mẫu video mới vào `.agent`:
 
-**Tại dự án vừa update (Đẩy lên não trung tâm):**
+**Đẩy kỹ năng mới lên Repo Core:**
 ```bash
 cd .agent
 git add .
-git commit -m "Nâng cấp kĩ năng AI"
+git commit -m "Nâng cấp kỹ năng Marketing & Video"
 git push
 ```
 
-**Tại các dự án khác (Tải não mới về):**
+**Tải bộ não mới về dự án khác:**
 ```bash
 cd .agent
 git pull
 ```
 
 ---
-*Developed & Optimized for Tech Lead Workflow.*
+*Developed & Optimized for Performance Marketer & Video Creator Workflow.*
+

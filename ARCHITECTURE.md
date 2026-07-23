@@ -1,16 +1,17 @@
-# Antigravity Kit Architecture
+# Antigravity Kit Architecture - Marketing & Video Core
 
-> Comprehensive AI Agent Capability Expansion Toolkit
+> Comprehensive AI Agent Capability & Video Engine Expansion Toolkit
 
 ---
 
 ## 📋 Overview
 
-Antigravity Kit is a modular system consisting of:
+Agent_MKT_Video is a specialized AI system consisting of:
 
-- **20 Specialist Agents** - Role-based AI personas
-- **36 Skills** - Domain-specific knowledge modules
-- **11 Workflows** - Slash command procedures
+- **Marketing & Video Specialist Agents** - Role-based AI personas (Video Producer, Ad Creative Director, Performance Marketer, Copywriter, etc.)
+- **Video Engine** - Automated HTML/Remotion video generation & rendering modules (`video-engine/`)
+- **Marketing & Technical Skills** - Domain-specific marketing, ad creative, copywriting, and video scripting skills
+- **Workflows** - Slash command procedures for campaign launching, video review, and ad iteration
 
 ---
 
@@ -18,14 +19,16 @@ Antigravity Kit is a modular system consisting of:
 
 ```plaintext
 .agent/
-├── ARCHITECTURE.md          # This file
+├── ARCHITECTURE.md          # System Architecture & Component Mapping
+├── README.md                # Main System Documentation
 ├── mcp_config.json          # MCP Tool Configuration
-├── agents/                  # 20 Specialist Agents
+├── agents/                  # Specialist Agents (Video Producer, Ad Director, etc.)
 ├── mcp-servers/             # Context RAG & Memory Server
-├── rules/                   # Global Rules (GEMINI.md, PROJECT_MEMORY.md)
-├── scripts/                 # Master Validation Scripts
-├── skills/                  # 36 Skills
-├── workflows/               # 11 Slash Commands
+├── rules/                   # Rules & Guidelines (Safe-Coding, Project Memory)
+├── scripts/                 # Automation & Validation Scripts
+├── skills/                  # Marketing, Video & Technical Skills (video, ad-creative, ads, etc.)
+├── video-engine/            # Video Generation Engine (html-video, auto-create-video)
+├── workflows/               # Slash Commands
 └── scratch/                 # Temporary AI Workspace
 ```
 
