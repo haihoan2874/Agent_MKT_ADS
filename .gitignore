@@ -1,0 +1,9 @@
+# Ignore Project-specific Memory
+rules/PROJECT_MEMORY.md
+
+# Ignore Python Virtual Environments
+mcp-servers/**/.venv
+mcp-servers/**/__pycache__/
+
+# Ignore temporary AI workspace
+scratch/
