@@ -16,10 +16,15 @@
 - **Offer & Positioning Design:** Thiết kế Grand Slam Offer, khung giá trị, risk reversal và độc quyền sản phẩm.
 - **A/B Testing & Creative Iteration:** Quản lý vòng lặp thử nghiệm quảng cáo, phát hiện ad fatigue và tự động làm mới creative.
 
-### 🤖 3. Chuyên gia AI & Kỹ năng Tích hợp sẵn
-- **Chuyên gia AI:** Video Producer, Ad Creative Director, Performance Marketer, Copywriter, Content Strategist.
-- **Skillset chuyên sâu:** `video`, `ad-creative`, `ads`, `social`, `copywriting`, `offers`, `ab-testing`, `marketing-ideas`, `marketing-loops`.
-- **Workflows:** slash commands phục vụ lên chiến dịch, duyệt kịch bản video và tối ưu quảng cáo.
+### 🤖 3. Hệ thống 8 AI Agent Chuyên Gia Doanh Nghiệp (Enterprise AI Agents)
+- **👑 CEO Agent (`80-ceo-agent.md`):** Điều phối toàn bộ hệ thống, lập kế hoạch 90 ngày, phân tích scope & kiểm soát OKRs.
+- **💡 Business Model Agent (`81-business-ideator.md`):** Tìm kiếm & tối ưu hóa mô hình kinh doanh, định giá & monetization.
+- **🔍 Market Research Agent (`82-market-researcher.md`):** Nghiên cứu thị trường, cào/phân tích đối thủ & thiết kế Grand Slam Offer.
+- **📢 Marketing Director (`83-marketing-director.md`):** Kéo traffic, thiết kế funnel, kịch bản video viral & ads creative.
+- **💰 Sales Copywriter (`84-sales-copywriter.md`):** Viết kịch bản chốt đơn, VSL, Landing page ("Copy-paste Sales").
+- **⚙️ Fulfillment Ops (`85-fulfillment-automation.md`):** Tự động hóa giao hàng số/khóa học, tích hợp cổng thanh toán & Webhooks.
+- **📊 Data Analyst (`86-data-analyst.md`):** Đọc số liệu báo cáo hệ thống (ROAS, CAC, LTV, Churn) & đưa ra phương án tối ưu.
+- **❤️ Community Builder (`87-community-builder.md`):** Xây cộng đồng, chăm sóc khách hàng tự động & biến khách thành raving fan.
 
 ---
 

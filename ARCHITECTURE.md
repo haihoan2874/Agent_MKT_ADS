@@ -34,9 +34,26 @@ Agent_MKT_Video is a specialized AI system consisting of:
 
 ---
 
-## 🤖 Agents (20)
+## 🤖 Enterprise Business & Growth Agents (8 Core Roles)
 
-Specialist AI personas for different domains.
+Specialized AI personas for end-to-end business, growth, marketing, sales, and operations.
+
+| Agent | Focus | Skills Used |
+| :--- | :--- | :--- |
+| `80-ceo-agent` | Master coordination, 90-day strategy, scope & OKRs | marketing-plan, product-marketing, marketing-council |
+| `81-business-ideator` | Business model, monetization, pricing tiers | pricing, offers, free-tools, product-marketing |
+| `82-market-researcher` | Competitor teardown, VOC mining, Grand Slam Offer | competitor-profiling, competitors, customer-research, last30days |
+| `83-marketing-director` | Traffic, funnels, viral short video scripts & ad creative | video-ads-hook-expert, ad-creative, ads, social, video |
+| `84-sales-copywriter` | Sales pages, VSLs, copy-paste sales scripts & emails | copywriting, sales-enablement, cold-email, emails, cro |
+| `85-fulfillment-automation` | Digital product delivery, payment & webhook ops | revops, onboarding, signup, paywalls |
+| `86-data-analyst` | System ROAS, CAC, LTV, conversion rate & churn audit | analytics, ab-testing, seo-audit, churn-prevention |
+| `87-community-builder` | Raving fan community, referrals & customer advocacy | community-marketing, referrals, influencer-marketing |
+
+---
+
+## 💻 Developer & Engineering Agents (20)
+
+Specialist AI personas for technical development.
 
 | Agent                    | Focus                      | Skills Used                                              |
 | ------------------------ | -------------------------- | -------------------------------------------------------- |
